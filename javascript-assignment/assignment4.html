@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Movie Age Verification</title>
+</head>
+<body>
+  <script>
+    const ageInput=prompt("enter your age");
+    const ageNo=Number(ageInput);
+    if(ageNo>=18){
+      alert('Access to all movies');
+    }else if(ageNo>=13){
+      alert('Access to PG-13 and belo');
+    }else{
+      alert('Access to kids\' movies only');
+    }
+  </script>
+</body>
+</html>
